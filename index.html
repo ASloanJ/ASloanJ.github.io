@@ -8,27 +8,53 @@
     		<script src="js/vendor/modernizr.js"></script>
   	</head>
 
-	<body style="background-color:lightgrey">
+	<body>
 		
-		<div>
+		<div style="text.align:center">
 		<h3>Driving You Happy</h3>
-		<p>Coming soon!</p>
+		<h4 class="subheader">Coming soon!</p>
 		</div><br><br>
 		
 	<form> <!--Form will send data eventually-->
-		<div class="large-2 columns">
-		<label>Tell me about your commute.</label>
-		<input id="checkbox1" type="checkbox"><label>I commute by bike.</label>		
-		<br><input id="checkbox2" type="checkbox"><label>I commute by car.</label>	
-		<br><input id="checkbox3" type="checkbox"><label>I use public transport or walk.</label>
-		<br><button class"button form-submit" name="data" value="Submit">Submit</button>
-		</div>
+		<fieldset>
+			<legend>Contact Us</legend>
+				<div class="medium-4 rows">
+					<div class="large-9 columns">
+					<input id="name" type="text" placeholder="Name">
+					<input id="email" type="text" placeholder="Email (Optional)">
+					</div>
+				</div>
+			<div class="large-16 columns">
+				<input id="comments" type="text" placeholder="Comments, concerns, or questions?">
+			</div>
+		
+	
+<fieldset>
+			<legend>Tell us about your commute.</legend>
+				<div class="row">
+					<div class="large-6 columns">
+						<input id="checkbox1" type="checkbox"><label>I commute by bike.</label>		
+						<br><input id="checkbox2" type="checkbox"><label>I commute by car.</label>	
+						<br><input id="checkbox3" type="checkbox"><label>I use public transport or walk.</label>
+</fieldset>
+	
+
+	<!--May we contact you switch? Can't figure out funtionality // <div class="switch large round" label="May we contact you?">
+		<input id="x" name="switch-x" type="radio" checked>
+		<label for="x" onclick="">No</label>
+		
+		<input id="x1" name="switch-x" type="radio">
+		<label for="x1" onclick="">Yes</label>
+	</div>
+//-->
+
+	<button class"button form-submit" name="data" value="Submit">Submit</button>
+		</fieldset>
 	</form>
 
 		<div>
 		<p>Driving You Happy is a community-oriented commuting service for everyone.</p>
 		</div>
-
 	</body>
 </html>
 
