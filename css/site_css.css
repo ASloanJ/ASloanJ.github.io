@@ -1,0 +1,43 @@
+body {
+	color: #F5F5F5;
+	background-color: #afd3c3;
+}
+
+fieldset { 
+	color: black;
+	border: dotted;
+	border-color: black;
+	border-width: 2px;
+}
+
+/*input.placeholder {
+	border: solid;
+	border-color: black;
+}*/
+
+textarea {
+	border: solid;
+	border-color: black;
+}
+
+p {
+	text-align: right; 
+	color: red;
+}
+
+h2 {
+	font-family: "Times New Roman";
+	text-align: center;
+	color: olive;
+}
+
+h3 {
+	text-align: justify;
+	color: purple;
+}
+
+h4 {
+	text-align: center;
+	color: gray;
+}
+
